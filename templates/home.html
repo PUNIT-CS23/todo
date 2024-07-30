@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block body %}
+<div class="container text-center" style="margin-top: 50px;">
+    <h1>Welcome to the ToDo Application</h1>
+    <p class="lead">Organize your tasks and boost your productivity.</p>
+    <!-- <a href="{% url 'todo' %}" class="btn btn-primary btn-lg" >Get Started</a> -->
+    <a class="btn btn-primary btn-lg" href="{% url 'todo' %}" role="button">Get Started</a>
+</div>
+{% endblock %}
